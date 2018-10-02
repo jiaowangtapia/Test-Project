@@ -1,0 +1,11 @@
+h1 {color: red;
+
+}
+p {color: rgb(12, 14, 13);
+}
+
+.color {background-color: lightskyblue}
+/* ================================= 
+Media Queries
+==================================== */
+@media (min-width: )

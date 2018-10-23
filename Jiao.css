@@ -1,11 +1,62 @@
-h1 {color: red;
+h1 {font-family: Arial, Helvetica, sans-serif;
 
 }
 p {color: rgb(12, 14, 13);
 }
+body {text-align: center;
+}
 
-.color {background-color: lightskyblue}
+.container {
+    width: 80%;   
+    margin: auto;
+    padding: 10px;
+}
+.Aspirations {
+    height: 100%;
+    width: 50%;
+    background:aqua;
+    float: left;
+}
+.Education{
+    height: 100%;
+    width: 50%;
+    background: greenyellow;
+    float: right;
+}
+.background{
+    height: 200px;
+    width: 50%;
+    background:greenyellow;
+    float: left;
+}
+.experiences{
+    height: 200px;
+    width: 50%;
+    background: aqua;
+    float: right;
+}
+
 /* ================================= 
 Media Queries
 ==================================== */
-@media (min-width: )
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: lightblue;
+        
+    }
+    .Aspirations {
+        width: 100%;
+        float: none;
+    }
+    .Education{
+        width: 100%;
+        float: none;
+    }
+    .background{
+        width: 100%;
+        float: none;
+    }
+    .experiences{
+        width: 100%;
+        float: none;
+}

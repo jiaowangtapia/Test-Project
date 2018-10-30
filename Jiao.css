@@ -7,34 +7,31 @@ body {text-align: center;
 }
 
 .container {
+    margin: 5%;
     width: 80%;   
     margin: auto;
     padding: 10px;
 }
-.Aspirations {
-    height: 100%;
-    width: 50%;
-    background:aqua;
-    float: left;
+.aqua {
+    background:aqua;   
 }
-.Education{
-    height: 100%;
-    width: 50%;
-    background: greenyellow;
-    float: right;
-}
-.background{
-    height: 200px;
-    width: 50%;
+.greenyellow{
     background:greenyellow;
+}
+.card{
+    height: 100%;
+    width: 50%;
+    float: right;
+    min-height: 200px
+}
+.lefty {
     float: left;
 }
-.experiences{
-    height: 200px;
-    width: 50%;
-    background: aqua;
+.righty{
     float: right;
 }
+
+
 
 /* ================================= 
 Media Queries
@@ -44,19 +41,16 @@ Media Queries
         background-color: lightblue;
         
     }
-    .Aspirations {
+    .lefty {
         width: 100%;
         float: none;
+        min-height: unset;
     }
-    .Education{
+    .righty{
         width: 100%;
         float: none;
+        min-height: unset;
+
     }
-    .background{
-        width: 100%;
-        float: none;
-    }
-    .experiences{
-        width: 100%;
-        float: none;
+    
 }
